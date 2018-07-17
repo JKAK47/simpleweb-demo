@@ -32,7 +32,7 @@ public class Person implements BeanFactoryAware, BeanNameAware, InitializingBean
     }
 
     public void setName(String name) {
-        System.out.println("【注入属性】注入属性name");
+        System.out.println("【注入属性】注入属性name = "+name);
         this.name = name;
     }
 
@@ -41,7 +41,7 @@ public class Person implements BeanFactoryAware, BeanNameAware, InitializingBean
     }
 
     public void setAddress(String address) {
-        System.out.println("【注入属性】注入属性address");
+        System.out.println("【注入属性】注入属性address, address = "+ address);
         this.address = address;
     }
 
@@ -50,7 +50,7 @@ public class Person implements BeanFactoryAware, BeanNameAware, InitializingBean
     }
 
     public void setPhone(String phone) {
-        System.out.println("【注入属性】注入属性phone");
+        System.out.println("【注入属性】注入属性phone = "+phone);
         this.phone = phone;
     }
 

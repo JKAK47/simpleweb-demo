@@ -19,5 +19,5 @@
 
     <bean id="person" class="org.vincent.simpleweb.bean.Person" init-method="personInit"
           destroy-method="personDestory" scope="singleton" p:name="张三" p:address="广州"
-          p:phone="15602409456" />
+          p:phone="9999" />
 </beans>
